@@ -1,0 +1,9 @@
+        
+改变element里面模版的样式：
+        .username,
+        .password {
+          :deep(.el-input)
+          {
+            --el-input-focus-border-color: #{$xtxColor};
+          }
+        }
