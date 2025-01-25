@@ -1,6 +1,6 @@
 # BunnyMall-project
 
-"Bunny Mall", an e-commerce web application, focused on creating a responsive and scalable online shopping platform while leveraging the latest frontend technologies to address key business requirements.
+"Bunny Mall", an e-commerce web application using Vue3, focused on creating a responsive and scalable online shopping platform while leveraging the latest frontend technologies to address key business requirements.
 
 ## Recommended IDE Setup
 
