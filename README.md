@@ -1,6 +1,6 @@
 # BunnyMall-project
 
-This template should help get you started developing with Vue 3 in Vite.
+"Bunny Mall", an e-commerce web application, focused on creating a responsive and scalable online shopping platform while leveraging the latest frontend technologies to address key business requirements.
 
 ## Recommended IDE Setup
 
@@ -33,3 +33,34 @@ npm run build
 ```sh
 npm run lint
 ```
+
+# Introduction with features
+
+### 1. Layout pages
+![](./assets/layout.png)
+![](./assets/new.png)
+##### Sticky header
+![](./assets/stickyHeader.png)
+![](./assets/home.png)
+![](./assets/footer.png)
+
+
+### 2. Login page
+##### login with username and password authentication
+![](./assets/login.png)
+
+##### Navbar changes after login
+![](./assets/navbar.png)
+
+##### Pop confirm to log out
+![](./assets/logout.png)
+
+### 3. Categories pages
+##### Enter the second categories
+![](./assets/secondCategory.png)
+##### Show second categories details
+![](./assets/thirdCategory.png)
+##### Show other categories
+![](./assets/otherCategories.png)
+##### Enter the third categories page with different products ranks
+![](./assets/ranks.png)

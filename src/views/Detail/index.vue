@@ -10,8 +10,13 @@ import { ElMessage } from 'element-plus'
 const goodsDetail = ref({})
 const route = useRoute()
 const getDetail = async () => {
-  const res = await getDetailAPI(route.params.id)
-  goodsDetail.value = res.result
+  try {
+    const res = await getDetailAPI(route.params.id)
+    goodsDetail.value = res.result
+  } catch (err) {
+    console.log('Show errors: ' + err)
+  }
+
   // console.log(res.result)
   // console.log(goodsDetail.value)
   // console.log(goodsDetail.value.categories[0].name)
