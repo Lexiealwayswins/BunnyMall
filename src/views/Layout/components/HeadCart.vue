@@ -1,15 +1,16 @@
 <script setup>
 import { useCartStore } from '@/stores/cartStore'
+import { RouterLink } from 'vue-router'
 
 const cartStore = useCartStore()
 </script>
 
 <template>
   <div class="cart-container">
-    <a class="cart" href="">
+    <RouterLink class="cart" to="/cartList">
       <i class="iconfont icon-cart"></i>
       <em>{{ cartStore.cartList.length }}</em>
-    </a>
+    </RouterLink>
     <div class="layer">
       <div class="list">
         <div class="item" v-for="item in cartStore.cartList" :key="item.id">
