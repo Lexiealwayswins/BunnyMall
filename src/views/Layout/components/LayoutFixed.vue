@@ -8,7 +8,7 @@
   <div class="app-header-sticky" :class="{ show: y > 78 }">
     <div class="container">
       <h1 class="logo">
-        <a href="" @click="$router.push('/login')">Bunny Mall</a>
+        <a href="/" @click="$router.push('/login')">Bunny Mall</a>
       </h1>
       <LayoutHeaderLeft />
       <div class="right">
